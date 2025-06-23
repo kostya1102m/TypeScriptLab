@@ -17,11 +17,11 @@ const NewNavbarStyle = styled(MenuItem)(({ theme }) => ({
     '&.active': {
         backgroundColor: theme.palette.info.dark,
         color: theme.palette.info.contrastText,
-        '&:hover': {
+        ':hover': {
             backgroundColor: theme.palette.info.dark,
         }
     },
-    '&:hover': {
+    ':hover': {
         backgroundColor: theme.palette.info.light,
     }
 }));
